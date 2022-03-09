@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Primary -->
+		<meta name="author" content="Britton Lorentzen"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta charset="UTF-8">
+		<title>Studio | Empac Design</title>
+		<meta NAME="ROBOTS" CONTENT="INDEX,FOLLOW"/>
+		<meta name="description" content="Documentation for the types of pages and components that can be built for your website."/>
+		<meta name="keywords" content="web design, digital design, consulting, graphic design, marketing services, seattle, tacoma, bonney lake, lake tapps, puyallup, auburn, kent, federal way, sumner, washington"/>
+		<link rel="shortcut icon" href="https://studio.empacdesign.com/files/images/logos/empac-rgb.png"> 
+		
+		<!-- Set Canonical -->
+
+		<link rel="canonical" href="https://studio.empacdesign.com/" />
+		
+		<!-- OpenGraph META -->
+
+		<meta property="og:title" content="Studio | Empac Design"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="https://studio.empacdesign.com/files/images/opengraph/2021/og-empac-studio.jpg"/>
+		<meta property="og:description" content="Documentation for the types of pages and components that can be built for your website."/>
+		<meta property="og:url" content="https://studio.empacdesign.com/"/>
+		
+		<!-- Twitter Card Markup -->
+		
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@emeraldpacific" />
+		<meta name="twitter:creator" content="@emeraldpacific" />
+		
+		<!-- Stylesheets -->
+		<!-- Main -->
+		<link  rel="stylesheet" href="../files/css/main.css">
+		
+		<!-- Typography -->
+		<link rel="stylesheet" href="https://use.typekit.net/woe0mdn.css">
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../files/js/scripts.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="main-app">
+			
+			<nav>
+				<div>
+					<img alt="empac logo" class="" src="../files/images/logos/empac-white.png" />
+					<span>Studio</span>
+				</div>
+				<div id="sidebarToggle" class="toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+			
+			<div class="main-content">
+				<div class="sidebar">
+					<ul id="sidebarList">
+						<li class="active" eds-related="edsMain">Main</li>
+						<li eds-related="edsNavi">Navigation</li>
+						<li eds-related="edsCarousel">Carousel</li>
+						<li eds-related="edsButton">Buttons</li>
+						<li eds-related="edsType">Typography</li>
+						<li eds-related="edsColor">Color Palette</li>
+						<li eds-related="edsTestimonial">Testimonials</li>
+						<li eds-related="edsForms">Forms</li>
+						<li eds-related="edsIcons">Icons</li>
+						<li eds-related="edsMaps">Maps</li>
+						<li eds-related="edsPageTypes">Page Types</li>
+					</ul>
+				</div>
+
+				<div id="contentSection" class="content-section" style="--ep-color-primary: #000; --ep-color-white: #fff; --ep-color-black: #000; --ep-font-display: 'europa';">
+					<div id="edsMain" class="subsection active">
+						<h1 class="small">Welcome to the Empac Design Studio</h1>
+						<p>This will be a space that talks about the components you can bring onto your website! There will also be an announcements section for any new components that are coming down the pipeline. More details coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>+ Adding content into button, color, and type sections.</p>
+						<p>+ Adding sections for components coming soon. Also getting the primary UI in place for folks to easily navigate the library.</p>
+					</div>
+
+					<div id="edsNavi" class="subsection">
+						<h2 class="small">Navigation</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+					<div id="edsCarousel" class="subsection">
+						<h2 class="small">Carousel</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+					<div id="edsButton" class="subsection">
+						<h2 class="small">Buttons</h2>
+						<!-- -->
+						<h3 class="small">Primary</h3>
+						<p>Your main button for the website. This should be used for your most important actions your customer will make.</p>
+						<div id="primaryBtnOutput">
+							<button id="primaryBtn" class="ep-button-fill">Primary Button</button>
+						</div>
+
+						<div class="editor" id="primaryBtnStyling" eds-related="primaryBtn">
+							<button class="active" eds-related="ep-button-fill">Filled Button</button>
+							<button eds-related="ep-button-outline">Outline Button</button>
+							<button eds-related="ep-button-text">Text Button</button>
+						</div>
+
+						<!-- -->
+						<h3 class="small">Secondary</h3>
+						<p>Your secondary buttons for actions that are not as important as the primary button.</p>
+
+						<div id="secondaryBtnOutput">
+							<button id="secondaryBtn" class="ep-button-outline">Secondary Button</button>
+						</div>
+
+						<div class="editor" id="secondaryBtnStyling" eds-related="secondaryBtn">
+							<button eds-related="ep-button-fill">Filled Button</button>
+							<button eds-related="ep-button-outline"  class="active">Outline Button</button>
+							<button eds-related="ep-button-text">Text Button</button>
+						</div>
+
+						<!-- -->
+						<h3 class="small">Tertiary</h3>
+
+						<div id="tertiaryBtnOutput">
+							<button id="tertiaryBtn" class="ep-button-text">Tertiary Button</button>
+						</div>
+
+						<div class="editor" id="tertiaryBtnStyling" eds-related="tertiaryBtn">
+							<button eds-related="ep-button-fill">Filled Button</button>
+							<button eds-related="ep-button-outline">Outline Button</button>
+							<button eds-related="ep-button-text"  class="active">Text Button</button>
+						</div>
+
+					</div>
+
+					<div id="edsType" class="subsection">
+						<h2 class="small">Typography</h2>
+						
+						<div class="editor" id="typeStyling" eds-related="headingOutput">
+							<h3 class="small">Display Font</h3>
+							<div class="dropdown">
+								<select id="displayFont" eds-related-css="--ep-font-display">
+									<option value="cairo">Cairo</option>
+									<option value="dashiell-fine">Dashiell Fine</option>
+									<option value="effra">Effra</option>
+									<option value="europa" selected>Europa</option>
+									<option value="kepler-std-display">Kepler</option>
+									<option value="loos-normal">Loos</option>
+								</select>
+							</div>
+							
+							<h3 class="small">Primary Font</h3>
+							<div class="dropdown">
+								<select>
+									<option>System Fonts</option>
+								</select>
+							</div>
+						</div>
+						
+						<div id="headingOutput" class="heading-output">
+							<span class="head-1 large">Heading 1 and 2 - Large</span>
+							<span class="head-1 medium">Heading 1 and 2 - Medium</span>
+							<span class="head-1 small">Heading 1 and 2 - Small</span>
+							<span class="head-3 large">Heading 3 and 4 - Large</span>
+							<span class="head-3 medium">Heading 3 and 4 - Medium</span>
+							<span class="head-3 small">Heading 3 and 4 - Small</span>
+							<span class="head-5 large">Heading 5 and 6 - Large</span>
+							<span class="head-5 medium">Heading 5 and 6 - Medium</span>
+							<span class="head-5 small">Heading 5 and 6 - Small</span>
+						</div>
+						
+					</div>
+
+					<div id="edsColor" class="subsection">
+						<h2 class="small">Color Palette</h2>
+						
+						<div class="editor">
+							<div class="custom-color-picker">
+								<label for="primaryColor">Primary</label>
+								<input type="color" id="primaryColor" name="primaryColor" eds-related-css="--ep-color-primary" value="#0E75C1" />
+							</div>
+							
+							<div class="custom-color-picker">
+								<label for="secondaryColor">Secondary</label>
+								<input type="color" id="secondaryColor" name="secondaryColor" eds-related-css="--ep-color-secondary" value="#0E75C1" />
+							</div>
+							
+							<div class="custom-color-picker">
+								<label for="whiteColor">White</label>
+								<input type="color" id="whiteColor" name="whiteColor" eds-related-css="--ep-color-white" value="#FFFFFF" />
+							</div>
+							
+							<div class="custom-color-picker">
+								<label for="blackColor">Black</label>
+								<input type="color" id="blackColor" name="blackColor" eds-related-css="--ep-color-black" value="#000000" />
+							</div>
+							
+						</div>
+						
+					</div>
+
+					<div id="edsTestimonial" class="subsection">
+						<h2 class="small">Testimonials</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+					<div id="edsForms" class="subsection">
+						<h2 class="small">Forms</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+					<div id="edsIcons" class="subsection">
+						<h2 class="small">Icons</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+					<div id="edsMaps" class="subsection">
+						<h2 class="small">Maps</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+					<div id="edsPageTypes" class="subsection">
+						<h2 class="small">Page Types</h2>
+						<p>Coming soon.</p>
+						<br><br>
+						<h3 class="small">Recent Updates</h3>
+						<p>Coming soon.</p>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
